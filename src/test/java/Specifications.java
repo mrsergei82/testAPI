@@ -22,6 +22,11 @@ public class Specifications {
                 .expectStatusCode(400)
                 .build();
     }
+    public static ResponseSpecification responseSpecificationStat(int status){
+        return new ResponseSpecBuilder()
+                .expectStatusCode(status)
+                .build();
+    }
     public static void instSpecific(RequestSpecification request,ResponseSpecification respons){
         RestAssured.requestSpecification = request;
         RestAssured.responseSpecification = respons;
