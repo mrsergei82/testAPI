@@ -1,3 +1,5 @@
+package org.example;
+
 public class Registr {
     private String email;
     private String password;

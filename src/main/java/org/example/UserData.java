@@ -1,3 +1,5 @@
+package org.example;
+
 public class UserData {
     private Integer id;
     private String email;

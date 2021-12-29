@@ -1,3 +1,5 @@
+package org.example;
+
 public class SuccessReg {
     private Integer id;
     private String token;

@@ -1,3 +1,5 @@
+package org.example;
+
 public class ColorData {
     private Integer id;
     private String name ;

@@ -1,3 +1,5 @@
+package org.example;
+
 public class UpdateUser {
     private String name;
     private String job;
