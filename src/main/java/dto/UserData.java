@@ -1,5 +1,12 @@
-package org.example;
+package dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserData {
     private Integer id;
     private String email;
@@ -7,7 +14,7 @@ public class UserData {
     private String last_name;
     private String avatar;
 
-    public UserData(Integer id, String email, String first_name, String last_name, String avatar) {
+    /*public UserData(Integer id, String email, String first_name, String last_name, String avatar) {
         this.id = id;
         this.email = email;
         this.first_name = first_name;
@@ -16,9 +23,9 @@ public class UserData {
     }
     public UserData(){
 
-    }
+    }*/
 
-    public Integer getId() {
+    /*public Integer getId() {
         return id;
     }
 
@@ -36,5 +43,5 @@ public class UserData {
 
     public String getAvatar() {
         return avatar;
-    }
+    }*/
 }

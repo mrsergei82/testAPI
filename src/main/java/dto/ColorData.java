@@ -1,5 +1,12 @@
-package org.example;
+package dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class ColorData {
     private Integer id;
     private String name ;
@@ -7,18 +14,16 @@ public class ColorData {
     private String color;
     private String pantone_value;
 
-    public ColorData(Integer id, String name, Integer year, String color, String pantone_value) {
+    /*public ColorData(Integer id, String name, Integer year, String color, String pantone_value) {
         this.id = id;
         this.name = name;
         this.year = year;
         this.color = color;
         this.pantone_value = pantone_value;
-    }
-    public ColorData(){
+    }*/
+    /*public ColorData(){}*/
 
-    }
-
-    public Integer getId() {
+   /* public Integer getId() {
         return id;
     }
 
@@ -36,5 +41,5 @@ public class ColorData {
 
     public String getPantone_value() {
         return pantone_value;
-    }
+    }*/
 }
